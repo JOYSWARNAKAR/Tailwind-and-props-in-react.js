@@ -1,9 +1,10 @@
 import React from 'react'
 
-function Card2({username ="JC", post ="Not assigned yet"}){
+function Card2({username ="JC", post ="Not assigned yet",btnText="visit me"}){
     
 // function Card({username, btnText="visit me"}) {
 //     console.log(username);
+//     console.log(props);
 
   return (
     <div className="relative h-[400px] w-[300px] rounded-md ">
@@ -32,7 +33,7 @@ function Card2({username ="JC", post ="Not assigned yet"}){
         </figcaption>
     </blockquote>
     <button className="mt-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white">
- visit me
+{btnText}
     </button>
   </div>
 </div>
