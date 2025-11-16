@@ -14,8 +14,8 @@ function App() {
       <h1 className='text-3xl bg-green-500 p-3 rounded-md'>Hi, I am Joy 😎
       </h1>
       <Card/>
-      <Card2 username="chaicode" />
-      <Card2/>
+      <Card2 username="chaicode" post='design engg.'/>
+      <Card2 username='JSON' post='staff engg.'/>
       <Card2/>
       <Card2/>
     

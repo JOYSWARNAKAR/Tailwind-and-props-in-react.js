@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Card2({username}){
+function Card2({username ="JC", post ="Not assigned yet"}){
     
 // function Card({username, btnText="visit me"}) {
 //     console.log(username);
@@ -22,10 +22,12 @@ function Card2({username}){
     <blockquote>
         <figcaption className='font-medium'>
         <div className='text-sky-500 dark:text-sky-400'>
+
        {username}
         </div>
         <div>
-            Product Enginner, India
+          {post}
+            {/* Product Enginner, India */}
         </div>
         </figcaption>
     </blockquote>
